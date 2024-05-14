@@ -16,8 +16,7 @@ To write a python program for creating File Transfer using TCP Sockets Links
 
 ## PROGRAM
 ## SERVER
-```
- import socket
+``` import socket
  def send_file(filename, client_socket):
  with open(filename, 'rb') as file:
  for data in file:
